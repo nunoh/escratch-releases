@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="eScratch is a small native scratchpad for your Mac. Write immediately, switch between scratches, and export the parts worth keeping.">
+  <meta name="theme-color" content="#f4f1e9">
+  <title>eScratch — A place to think</title>
+  <link rel="icon" href="assets/icon.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="shell header">
+    <a class="brand" href="#" aria-label="eScratch home"><img src="assets/icon.png" alt="" width="36" height="36">eScratch<span class="preview">Preview</span></a>
+    <nav aria-label="Main navigation"><a href="#how">How it works</a><a href="#shortcuts">Shortcuts</a><a href="#download">Get eScratch <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main">
+    <section class="shell hero">
+      <div class="intro">
+        <p class="eyebrow"><span class="dot"></span>A small native scratchpad for Mac</p>
+        <h1>A place<br>to <em>think.</em></h1>
+        <p class="lede">The idea before the document.<br>The draft before the message.<br>A little space to get it out of your head.</p>
+        <a class="download button" href="#download">Get eScratch <span aria-hidden="true">↗</span></a>
+        <p class="fine">macOS · Apple silicon · Early preview</p>
+      </div>
+      <figure class="app-figure">
+        <div class="figure-label"><span>01 / Your working space</span><span>Plain text + Markdown</span></div>
+        <img class="editor" src="assets/editor.png" alt="eScratch's native editor showing two scratch tabs and a Markdown draft, with syntax highlighting." width="1920" height="1280" fetchpriority="high">
+        <figcaption>Actual app window. Just your text, and room for the next thought.</figcaption>
+      </figure>
+    </section>
+    <section id="how" class="shell workflow">
+      <div class="section-intro"><p class="eyebrow">A lighter kind of writing</p><h2>Start anywhere.<br>Keep what matters.</h2></div>
+      <ol>
+        <li><span class="number">01</span><div><h3>Open. Write.</h3><p>No title, folder or save decision to make first. Your working text is saved locally and restored when you come back.</p></div></li>
+        <li><span class="number">02</span><div><h3>A scratch for each thought.</h3><p>Keep a few drafts side by side. Search their titles and text with <kbd>⌘P</kbd>, or rearrange the tabs to suit your train of thought.</p></div></li>
+        <li><span class="number">03</span><div><h3>Take the useful parts with you.</h3><p>Export with <kbd>⌘S</kbd>. Import a file as a scratch copy with <kbd>⌘O</kbd>, leaving the original untouched. Closed scratches can be reopened for seven days.</p></div></li>
+      </ol>
+    </section>
+    <section id="shortcuts" class="shell shortcuts">
+      <div><p class="eyebrow">Hands on the keyboard</p><h2>Small commands.<br>A familiar rhythm.</h2><p>Sublime-style editing, multiple cursors and a searchable command palette. Find the full shortcut reference inside the app.</p></div>
+      <dl>
+        <div><dt>New scratch</dt><dd><kbd>⌘N</kbd></dd></div>
+        <div><dt>Find a scratch</dt><dd><kbd>⌘P</kbd></dd></div>
+        <div><dt>Command palette</dt><dd><kbd>⌘K</kbd></dd></div>
+        <div><dt>Return to the previous tab</dt><dd><kbd>⌘⇧1</kbd></dd></div>
+        <div><dt>Reopen a closed scratch</dt><dd><kbd>⌘⇧T</kbd></dd></div>
+        <div><dt>All keyboard shortcuts</dt><dd><kbd>⌘⇧H</kbd></dd></div>
+      </dl>
+    </section>
+    <section id="download" class="shell get">
+      <img src="assets/icon.png" alt="" width="80" height="80" loading="lazy">
+      <div><p class="eyebrow">Make a little room</p><h2>Your next thought<br>can start here.</h2><p>Plain text first. Optional Markdown highlighting.<br>No account. Your scratches stay on your Mac.</p></div>
+      <div class="get-action"><a id="download-link" class="button" aria-disabled="true">Download coming soon</a><p id="download-note" class="fine">Public downloads are being prepared.</p></div>
+    </section>
+  </main>
+  <footer class="shell footer"><a class="brand" href="#">eScratch</a><p>A small tool by Nuno Hespanhol.</p><a id="project-link" href="https://github.com/nunoh" rel="noopener">More projects <span aria-hidden="true">↗</span></a></footer>
+</body>
+</html>
